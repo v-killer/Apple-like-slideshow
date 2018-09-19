@@ -1,0 +1,40 @@
+*{margin: 0;padding: 0;}
+body{
+    background-color: rgb(242, 242, 242)
+}
+.window{
+    width: 920px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 2px rgba(250,250,250,1);
+}
+.wrapper{
+    margin: 100px auto;
+    width: 920px;
+}
+.images{
+    display: flex;
+    align-items: flex-start;
+    transition: all 1s;
+}
+.buttons{
+
+    width: 920px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 0px 5px 2px rgba(250,250,250,1);
+}
+.buttons div{
+    background-color: rgb(240, 240, 240);
+    padding: 10px 18px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px 2px rgba(250,250,250,1);
+}
+.buttons .x{
+    padding: 6px 14px;
+}
+.buttons div.red{
+    background-color: rgb(210, 210, 210)
+}
